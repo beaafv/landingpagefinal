@@ -1,0 +1,561 @@
+* {
+
+    scroll-behavior: smooth;
+    font-family: 'Italiana', serif;
+    text-align: center;
+
+}
+  
+  body { 
+
+  
+    background-image:url(../img/fundobw.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+/*navigation menu*/
+
+.menu { display: flex;
+
+gap:200px; } 
+
+.logo img { width: 100px; height: auto;}
+
+
+.nav { display: flex;
+justify-content: space-evenly;
+}
+
+
+  .menu li { list-style-type: none;  }
+
+  li a {
+
+    text-decoration: none;
+    color: black;
+    font-size: 25px;}
+        
+    
+
+ ul:hover li a{
+        color: #FEB9C5;}
+    
+      ul:hover li a:not(:hover){
+    
+        color: black;
+        opacity: 0.3;}
+
+
+     
+
+/* link to whatsapp */
+
+    .link-to-whatsapp a {display: flex; 
+        text-decoration: none;
+        position: fixed;
+        left:1580px;
+        bottom:80px;}
+
+/* title */
+
+    h1 { font-size: 60px; color: white; font-weight: bold; font-family: 'Italiana', serif;
+    text-transform: uppercase; margin-top: 500px;margin-bottom: 50px;  
+    text-shadow: 2px 1px gray ;
+    letter-spacing: 5px;
+
+   animation: zoomIn; animation-duration: .44s;}
+
+
+
+    /*button find out more link to image gallery  */
+
+    .button {
+        background-image: linear-gradient(to right, palevioletred 2%, #FEB9C5 51%, #FEB9C5  100%);
+        box-sizing: border-box;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 20px;
+        transition: 0.5s;
+        color: white;            
+        box-shadow: 0 0 10px #eee;
+        border-radius: 8px;
+        text-decoration: none;
+        font-size: 22px;
+        border-block: none;
+        opacity: 90%;
+        
+       
+      }
+
+      .button:hover {
+     
+        color: white;
+        text-decoration: none;
+        opacity: 100%;
+        border-style:double;
+
+
+
+    
+        
+      }
+
+      h2 { margin-top: 100px; margin-bottom: 120px;}
+
+  /*image gallery */
+    
+h3 { font-size: 40px; color: #FEB9C5; text-shadow: 2px 1px gray ; letter-spacing: 5px; text-transform: uppercase; 
+    margin-top: 70px;  } 
+
+
+.imagegallery { display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+
+padding:80px;}
+
+
+.image:hover { cursor: pointer;
+    box-shadow: #AFA79F 4px 4px 4px 4px; 
+    transform: scale(1.02);
+
+
+      
+}
+
+    /*about me*/
+
+
+.aboutme {
+
+    display: flex;
+    gap:20px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+
+.aboutme img{
+    border-radius: 50%;
+    box-shadow: 10px 10px 0px 0px #FEB9C5;
+    animation: zoomIn;
+    animation-duration: .80s;
+    animation-delay: 0.20s;
+}
+
+.aboutmetext {
+
+    margin-bottom: 40px;
+    margin-top:40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: justify;
+    font-size: 22px;
+    
+    
+}
+
+
+
+
+
+.aboutmetext p { text-align: justify; margin-top: 80px;}
+
+
+
+
+/*services packages */
+
+.packages {
+
+    background-image: url(../img/footer2.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-size: cover;
+    padding: 200px;
+    gap: 100px;
+    margin:0 auto;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 300px;
+    padding: 40px 20px;
+    margin: 10px 0;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    border-radius: 10%;
+    background-color: white;
+    box-shadow: 10px 10px 0px 0px gainsboro;
+  }
+  
+  .content {
+    padding: 40px;
+  }
+  
+  .content .price {
+    color: black;
+    font-weight: 800;
+    font-size: 20px;
+    
+  }
+  
+  .content .description {
+    color: black;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .content .title {
+    text-transform: uppercase;
+    color: pink;
+    
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
+  
+  .button1 {
+  
+    background-image: linear-gradient(to right, palevioletred 2%, #FEB9C5 51%, #FEB9C5  100%);
+    box-sizing: border-box;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 15px;
+    transition: 0.5s;
+    color: white;            
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 16px;
+    border-block: none;
+    margin-top: 15px;
+  }
+  
+  
+
+.card:hover{
+
+    
+    cursor: pointer;
+    box-shadow: white 2px 2px 4px 4px;
+    transform: scale(1.01);
+}
+
+
+}
+   
+
+
+
+/* footer */
+
+footer{     
+    text-decoration: none;
+    align-items: center;
+    margin:0px;
+    padding:0px;
+    
+
+}
+
+.footer li { list-style: none;}
+.footer {
+
+    display: flex;
+  
+    justify-content: space-evenly; 
+
+}
+
+
+.footer:hover {
+    pointer:cursor;
+}
+
+
+  
+  
+
+@media only screen and (max-width:600px) { 
+
+/* enable menu */ 
+
+.menu { display: none;}
+
+.logo img {float:center; width: 80px; height: auto;}
+
+
+
+
+
+/* resized background image */
+body { background-image: url(../img/image3.jpg);
+    background-size: contain;
+}
+
+
+
+
+
+    /* title */
+
+h1 { font-size: 14px; color: pink; font-weight: bold; font-family: 'Italiana', serif;
+        text-transform: uppercase; margin-top: 290px; margin-bottom: 5px;  
+        text-shadow: 2px 1px gray ;
+        letter-spacing: 5px;
+        
+    }
+
+.box { margin-bottom: 10px;}
+
+
+.button {  background-image: linear-gradient(to right, #FEB9C5 2%, #FEB9C5 51%, #FEB9C5  100%);
+    box-sizing: border-box;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    color: white;            
+    box-shadow: 0 0 10px #eee;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 12px;
+    border-block: none;
+    opacity: 90%; }
+    
+
+
+
+
+h2 { margin-top: 80px;}
+
+
+.aboutme { display:block;
+    margin: auto 0;
+    margin-top: 10px;
+    
+   
+}
+.aboutmetext { text-align: center;
+font-size: 15x; margin-bottom: 20px;}
+
+.aboutme img{ height: 200px; width: auto;}
+
+
+    .aboutmetext p { font-size: 20px;
+    text-align: justify;}
+
+  
+
+
+  .aboutme h3 { padding: 0; margin-top: 1px;}
+
+  /* services */
+
+.packages {
+
+    background-image: url(../img/footer2.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-size: cover;
+    padding: 50px;
+   
+    gap: 40px;
+    margin:0 auto;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 200px;
+    padding: 5px 10px;
+    
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    border-radius: 10%;
+    background-color: white;
+    box-shadow: 10px 10px 0px 0px gainsboro;
+    margin:5px 30px 5px 20px;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  .content .price {
+    color: black;
+    font-weight: 800;
+    font-size: 16px;
+    
+  }
+  
+  .content .description {
+    color: black;
+    margin-top: 10px;
+    font-size: 12px;
+  }
+  
+  .content .title {
+    text-transform: uppercase;
+    color: pink;
+    font
+    
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+  
+  .button1 {
+    
+    user-select: none;
+    background-image: linear-gradient(to right, palevioletred 2%, #FEB9C5 51%, #FEB9C5  100%);
+    box-sizing: border-box;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 10px;
+    transition: 0.5s;
+    color: white;            
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 12px;
+    border-block: none;
+    margin-top: 5px;
+  }
+  
+  
+
+.card:hover{
+
+    
+    cursor: pointer;
+    box-shadow: white 2px 2px 4px 4px;
+}
+
+
+
+
+.card:hover{
+
+    
+    cursor: pointer;
+    box-shadow: white 2px 2px 4px 4px;
+}
+
+
+
+/* image gallery */
+
+.imagegallery { display: flex;
+    flex-wrap: wrap;
+   
+    align-items: center;
+      padding: 0;
+      margin-top: 20px;
+    }    
+
+
+   
+.imagegallery img{
+height: 400px; width: 300px;
+        
+        
+    }
+
+h3 { font-size: 20px; color: #FEB9C5; text-shadow: 2px 1px gray ; letter-spacing: 5px; text-transform: uppercase; 
+        margin-top: 70px; margin-bottom: 10px;}
+    
+
+
+
+
+
+.footer { justify-content: space-evenly; padding-top:20px; }
+    
+
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+
+
+        body { background-image: none;
+            margin: auto 0;
+            padding:0;
+        
+            background-position:top;
+      }
+
+      header { margin:20px;}
+      .menu { display: flex;
+
+       gap:50px;} 
+        
+ 
+
+
+      .nav li a{ font-size: 20px;}
+       
+      h1 { font-size: 60px; color: pink; font-weight: bold; font-family: 'Italiana', serif;
+        text-transform: uppercase; margin-top: 120px;margin-bottom: 300px;  
+        text-shadow: 2px 1px black;
+        letter-spacing: 3px; }
+
+
+.aboutme { display:block;
+    margin: auto 0;
+    margin-top: 10px;
+    
+   
+}
+.aboutmetext { text-align: center;
+font-size: 12x; 
+margin:20px 100px 20px 100px;}
+
+.aboutme img{ height: 400px; width: auto;}
+
+
+    .aboutmetext p { font-size: 20px;
+    text-align: center;}
+
+  
+
+
+  .aboutme h3 { padding: 0; margin-top: 1px;}
+
+  .content .description {
+    color: black;
+    
+    font-size: 20px;
+  }
+  
+  .content .title {
+    text-transform: uppercase;
+    color: pink;
+    
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
+  .content .price {
+    color: black;
+    font-weight: 800;
+    font-size: 30px;
+    
+  }
+    
+
+    }
+
+   
