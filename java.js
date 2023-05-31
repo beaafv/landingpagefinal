@@ -8,7 +8,7 @@ function toggleMenu() {
 }
 
 function closeMenuOnClickOutside(event) {
-  if (window.innerWidth <= 767 && !navbarMenu.contains(event.target) && !navbarToggle.contains(event.target)) {
+  if (window.innerWidth <= 767 && !navbarMenu.contains(event.target) && !navbarToggle.contains(event.target) && navbarMenu.style.display === 'flex') {
     navbarMenu.style.display = 'none';
   }
 }
