@@ -21,11 +21,11 @@ window.addEventListener('resize', function() {
   }
 });
 
-window.addEventListener('touchstart', function(event) {
+window.addEventListener('click', function(event) {
   closeMenuOnClickOutside(event);
 });
 
-navbarMenu.addEventListener('touchstart', function(event) {
+navbarMenu.addEventListener('click', function(event) {
   if (event.target.tagName === 'A' && window.innerWidth <= 767) {
     navbarMenu.style.display = 'none';
   }
