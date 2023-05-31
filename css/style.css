@@ -18,6 +18,10 @@ body {
 header { 
   top:0
   }
+
+
+#background-video { pointer-events: none;}
+#background-video2 {  pointer-events: none;}
   
   .logo img { height: 100px; 
   width: auto;  
