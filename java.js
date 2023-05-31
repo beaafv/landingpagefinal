@@ -132,5 +132,8 @@ video.removeAttribute('controls');
 var video1 = document.getElementById('backgroundvideo-2');
 video1.removeAttribute('controls');
 
+video.controls = false;
+
+video1.controls = false;
 
 
