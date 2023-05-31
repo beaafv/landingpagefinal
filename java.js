@@ -124,16 +124,21 @@ function changePicture() {
 };
 
 
-
-var video = document.getElementById('backgroundvideo');
-video.removeAttribute('controls');
-
-
-var video1 = document.getElementById('backgroundvideo-2');
-video1.removeAttribute('controls');
-
-video.controls = false;
-
-video1.controls = false;
-
+document.addEventListener('DOMContentLoaded', function() {
+  var video = document.getElementById('background-video');
+  
+  
+   video.controls = false;
+  
+  video.addEventListener('click', function() {
+    if (video.paused) {
+      video.play();
+    } else {
+      video.pause();
+    }
+  });
+});
+  
+  
+  
 
