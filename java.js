@@ -123,3 +123,14 @@ function changePicture() {
   image.src = imagens [random];
 };
 
+
+
+var video = document.getElementById('backgroundvideo');
+video.removeAttribute('controls');
+
+
+var video1 = document.getElementById('backgroundvideo-2');
+video1.removeAttribute('controls');
+
+
+
