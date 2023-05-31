@@ -8,7 +8,7 @@ function toggleMenu() {
 }
 
 function closeMenuOnClickOutside(event) {
-  if (window.innerWidth <= 767 && !navbarMenu.contains(event.target) && !navbarToggle.contains(event.target) && navbarMenu.style.display === 'flex') {
+  if (window.innerWidth <= 767 && !navbarMenu.contains(event.target) && !navbarToggle.contains(event.target)) {
     navbarMenu.style.display = 'none';
   }
 }
@@ -21,11 +21,11 @@ window.addEventListener('resize', function() {
   }
 });
 
-window.addEventListener('click', function(event) {
+window.addEventListener('touchstart', function(event) {
   closeMenuOnClickOutside(event);
 });
 
-navbarMenu.addEventListener('click', function(event) {
+navbarMenu.addEventListener('touchstart', function(event) {
   if (event.target.tagName === 'A' && window.innerWidth <= 767) {
     navbarMenu.style.display = 'none';
   }
@@ -39,6 +39,7 @@ window.addEventListener('load', function() {
     navbarMenu.style.display = 'flex';
   }
 });
+
 
 const submitButton = document.querySelector(".submit1")
 
