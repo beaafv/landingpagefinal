@@ -1132,7 +1132,7 @@ li a {
   display: flex;
   flex-direction: column;
   position: fixed;
-  gap:40px;
+  gap:10px;
   background-color: rgba(0, 0, 0, 0.8);
   border-radius: 10px;
   width: 100vw;
