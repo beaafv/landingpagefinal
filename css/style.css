@@ -64,7 +64,7 @@ header {
   
 }
 
-li a { 
+li a:hover{ 
   font-size: 30px;}
 
 .navbar-menu li.logo {
